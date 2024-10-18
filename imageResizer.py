@@ -8,18 +8,21 @@ def is_integer(value):
 image = cv2.imread("./non-modified-images/garud-commando.jpg",cv2.IMREAD_UNCHANGED)
 # cv2.imshow("garud-commando-image",image)
 
-scale_percentage=input("Enter your scale percentage ")
+width_scale_percentage=input("Enter width scale percentage ")
+height_scale_percentage=input("Enter height scale percentage ")
+
 try:
 
-    scale_percentage = int(scale_percentage)
+    width_scale_percentage = int(width_scale_percentage)
+    height_scale_percentage = int(height_scale_percentage)
 # Check if it's an integer
-    if is_integer(scale_percentage):
-        print("Valid integer input:", scale_percentage)
-        new_height_percentage = scale_percentage / 100
+    if is_integer(height_scale_percentage) and is_integer(width_scale_percentage):
+
+        new_height_percentage = height_scale_percentage / 100
         # shape 0 holds the image height
         scaled_height = int(image.shape[0] * new_height_percentage);
 
-        new_width_percentage= scale_percentage/100
+        new_width_percentage= width_scale_percentage/100
         # shape 1 holds the image width
         scaled_width= int(image.shape[1]*new_width_percentage);
 
