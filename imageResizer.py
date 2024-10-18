@@ -1,12 +1,15 @@
 import cv2
-
+import os
 def is_integer(value):
     return isinstance(value, int)
 
 
+image_path="./non-modified-images/garud-commando.jpg"
+
 # cv2.IMREAD_UNCHANGED: This flag tells OpenCV to load the image as is,
-image = cv2.imread("./non-modified-images/garud-commando.jpg",cv2.IMREAD_UNCHANGED)
+image = cv2.imread(image_path,cv2.IMREAD_UNCHANGED)
 # cv2.imshow("garud-commando-image",image)
+image_name = os.path.basename(image_path)
 
 width_scale_percentage=input("Enter width scale percentage ")
 height_scale_percentage=input("Enter height scale percentage ")
@@ -27,7 +30,7 @@ try:
         scaled_width= int(image.shape[1]*new_width_percentage);
 
         modified_image= cv2.resize(image, (scaled_width, scaled_height))
-        cv2.imwrite('scaledImage.jpg',modified_image)
+        cv2.imwrite(f'./modified-images/scaled_{image_name}',modified_image)
     else:
         print("Input is not an integer.")
 except ValueError:

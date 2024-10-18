@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="126a41b2-e5d8-4070-b5d5-fa1af9aa377d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="126a41b2-e5d8-4070-b5d5-fa1af9aa377d" name="Changes" comment="distinct input options for width as well as height">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageResizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/imageResizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaledImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/scaledImage.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,20 @@
       <option name="presentableId" value="Default" />
       <updated>1729187742572</updated>
     </task>
+    <task id="LOCAL-00001" summary="distinct input options for width as well as height">
+      <option name="closed" value="true" />
+      <created>1729271807998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729271807998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="distinct input options for width as well as height" />
+    <option name="LAST_COMMIT_MESSAGE" value="distinct input options for width as well as height" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
