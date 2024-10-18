@@ -1,4 +1,4 @@
-# Image Scaling with OpenCV
+# py-image-resizer: Image Scaling with OpenCV
 
 This Python script allows you to resize an image based on user-provided scaling percentages for the width and height. The image is read using OpenCV, resized, and then saved to the specified output directory.
 
